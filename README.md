@@ -34,7 +34,8 @@ AI Integration: OpenAI API (GPT-3.5)
 Installation
 
 Navigate into the backend directory:
-bash```
+
+```
 cd backend
 
 
