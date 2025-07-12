@@ -58,7 +58,9 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 #Start your FastAPI server locally:
 
-uvicorn app.main:app --reload
+cd backend
+
+uvicorn main:app --reload
 ```
 
 Visit your API at http://localhost:8000.
@@ -74,3 +76,8 @@ ReDoc UI: http://localhost:8000/redoc
 ## Backend Deployment
 
 The recommended platform for deploying the backend is Render (render.com)
+
+## In Production
+
+Try with this URL: https://chat-with-brainwave.vercel.app/
+Then click the " Get Demo " button to have a fun chat with AI
