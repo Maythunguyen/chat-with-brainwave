@@ -13,6 +13,7 @@ const ChatPage = () => {
     "How's it going mate?",
     "What are you curious about?",
     "Need help with something?",
+    "Ask me anything!",
   ];
 
   const handleChange = (e) => {
